@@ -1,0 +1,42 @@
+@import "../../styles//mixins.scss";
+.skills__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 2rem;
+  @media screen and (min-width: 576px) {
+    grid-template-columns: repeat(2, minmax(250px,350px));
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+  }
+}
+.front,
+.back {
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+  .wrapper {
+    padding: 2rem;
+    .box {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      gap: 1.5rem 3rem;
+      justify-content: center;
+      p {
+        display: flex;
+        align-items: center;
+        column-gap: 0.5rem;
+        text-align: center;
+        color: var(--title-color);
+        span {
+          font-weight: var(--font-medium);
+        }
+      }
+    }
+  }
+}
