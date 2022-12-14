@@ -14,16 +14,16 @@ const Header = () => {
           <div className={openMenu ? "nav__menu visible" : "nav__menu"}>
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="#" onClick={()=>setOpenMenu(false)}>Home</a>
+                <a href="#" onClick={()=>setOpenMenu(false)}>Accueil</a>
               </li>
               <li className="nav__item">
-                <a href="#about" onClick={()=>setOpenMenu(false)}>About</a>
+                <a href="#about" onClick={()=>setOpenMenu(false)}>À propos</a>
               </li>
               <li className="nav__item">
-                <a href="#skills" onClick={()=>setOpenMenu(false)}>Skills</a>
+                <a href="#skills" onClick={()=>setOpenMenu(false)}>Compétences</a>
               </li>
               <li className="nav__item">
-                <a href="#work" onClick={()=>setOpenMenu(false)}>Work</a>
+                <a href="#work" onClick={()=>setOpenMenu(false)}>Projets</a>
               </li>
               <li className="nav__item">
                 <a href="#contact" onClick={()=>setOpenMenu(false)}>Contact</a>
