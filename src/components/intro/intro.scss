@@ -47,10 +47,11 @@
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  i {
+  a {
     font-size: 1.5rem;
     cursor: pointer;
     width: max-content;
+    color: var(--text-color);
     &:hover {
       color: var(--title-color);
     }
