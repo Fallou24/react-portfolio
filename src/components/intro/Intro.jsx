@@ -40,7 +40,7 @@ const Intro = () => {
           <h1 className="intro__title">Fallou Ndiaye</h1>
           <h3>Etudiant en développement web</h3>
           <p className="intro__desc">
-            Je suis un passionné du codage qui se forme en autodidacte ,spécialisé
+            Je suis un passionné du codage qui se forme en autodidacte, spécialisé
             dans le développemnt front-end
           </p>
           <a className="button intro__btn" href="#contact">

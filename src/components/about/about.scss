@@ -16,6 +16,7 @@
         height: 250px;
         object-fit: cover;
         border-radius: 10px;
+        background: var(--title-color);
         @include medium{
             height: 350px;
             width: 350px;
