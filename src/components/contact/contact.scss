@@ -6,7 +6,13 @@ textarea {
 }
 .talk__me-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+}
+.contact__text{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
 }
 .contact__box {
   display: flex;
@@ -16,7 +22,7 @@ textarea {
   margin-bottom: 1.5rem;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.089);
   padding: 1rem 0;
-  button {
+  a {
     width: max-content;
     display: flex;
     align-items: center;
@@ -43,19 +49,24 @@ textarea {
   }
 }
 .contact__form {
+  .alert{
+    margin-top: .75rem;
+    color: var(--title-color);
+  }
   h3 {
     margin: 2rem 0;
     text-align: center;
   }
   fieldset {
-    padding-left: 2rem;
-    
+    padding:0 2rem;   
     border: 1px solid rgba(0, 0, 0, 0.164);
     margin-bottom: 2rem;
     border-radius: 10px;
+    background: var(--body-color);
   }
   input {
     padding: 0.5rem 0;
+    width: 100%;
   }
 
   textarea {
