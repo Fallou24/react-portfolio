@@ -2,8 +2,8 @@ import React from "react";
 import "./skills.scss";
 
 const Skills = () => {
-  const front = ["HTML", "CSS", "Git", "Sass", "Javascript", "React"];
-  const back = ["Node Js","Firebase","PHP","SQL","MongoDB"]
+  const front = ["HTML", "CSS", "Sass", "Javascript", "ReactJS", "Git"];
+  const back = ["NodeJs","Firebase","PHP","SQL","MongoDB"]
   return (
     <section className="section skills" id="skills">
       <h1 className="section__title">Compétences</h1>

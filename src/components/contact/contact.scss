@@ -7,12 +7,15 @@ textarea {
 .talk__me-title {
   text-align: center;
   margin-bottom: 1.5rem;
+  font-size: var(--h1-font-size);
 }
 .contact__text{
   text-align: center;
   font-weight: 500;
   margin-bottom: 1.5rem;
   color: var(--text-color);
+  font-size: var(--normal-font-size);
+  padding: 0 1rem;
 }
 .contact__box {
   display: flex;

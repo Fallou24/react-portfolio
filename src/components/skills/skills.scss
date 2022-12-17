@@ -4,6 +4,7 @@
   grid-template-columns: 1fr;
   justify-content: center;
   gap: 2rem;
+  
   @media screen and (min-width: 576px) {
     grid-template-columns: repeat(2, minmax(250px,350px));
   }
@@ -21,18 +22,20 @@
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.158);
   border-radius: 10px;
   .wrapper {
-    padding: 2rem;
+    width: 100%;
+    padding: 1.5rem;
     .box {
       display: grid;
       grid-template-columns: repeat(2, max-content);
-      gap: 1.5rem 3rem;
-      justify-content: center;
-      p {
+      justify-content: space-between;
+      gap: 1.5rem 0;
+    p {
         display: flex;
         align-items: center;
         column-gap: 0.5rem;
         text-align: center;
         color: var(--title-color);
+        
         span {
           font-weight: var(--font-medium);
         }

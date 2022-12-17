@@ -26,6 +26,7 @@
     .about__desc{
         margin-bottom: 2rem;
         padding: 0 4rem;
+        
         @include small{
             text-align: justify;
         }

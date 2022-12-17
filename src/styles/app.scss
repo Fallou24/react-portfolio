@@ -17,10 +17,11 @@ input,
 button,textarea {
   font-family: "Poppins", sans-serif;
   font-size: var(--normal-font-size);
+  background: var(--body-color);
 }
 body {
   margin: 70px 0 0 0;
-  background: var(--body-color);
+  
   color: var(--text-color);
 }
 ul {
@@ -79,7 +80,7 @@ button {
   font-weight: var(--font-medium);
   transition: .3s;
   @include small{
-    padding: .75rem 1.25rem;
+    padding: .75rem 1.2rem;
   }
   &:hover {
     background:#000;
