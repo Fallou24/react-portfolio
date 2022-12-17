@@ -80,7 +80,7 @@
       height: 1px;
       background: var(--text-color);
       @include small {
-        width: 0;
+        display: none;
       }
     }
   }
