@@ -10,22 +10,22 @@
   @include small {
     grid-template-columns: 50px 1fr;
   }
-  @include medium{
-    grid-template-columns: 100px repeat(2,1fr);
+  @include medium {
+    grid-template-columns: 100px repeat(2, 1fr);
   }
   .intro__blob {
     width: 300px;
     fill: hsl(0, 0, 20%);
-    @include small{
+    @include small {
       width: 150px;
     }
-    @media screen and (max-width:420px){
-       width: 180px;
+    @media screen and (max-width: 420px) {
+      width: 180px;
     }
   }
   .hero__img {
     @include medium {
-     order: 3;
+      order: 3;
     }
   }
   .hero__intro {
@@ -68,7 +68,7 @@
     padding-left: 70px;
     font-weight: 500;
     margin-bottom: 1rem;
-    @include small{
+    @include small {
       padding-left: 0;
     }
     &::before {
@@ -80,13 +80,14 @@
       height: 1px;
       background: var(--text-color);
       @include small {
-        display: none;
+        width: 0;
       }
     }
   }
+
   .intro__desc {
     margin-bottom: 2.5rem;
-    @include small{
+    @include small {
       text-align: justify;
     }
   }

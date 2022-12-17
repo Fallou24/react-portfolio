@@ -4,7 +4,7 @@
   right: 2.5rem;
   transition: 0.4s;
   @media screen and (max-width: 350px) {
-    right: 2rem;
+    right: 1rem;
   }
   button {
     width: 35px;
@@ -35,6 +35,6 @@
 .show-scroll {
   bottom: 3rem;
   @media screen and (max-width: 350px) {
-    bottom: 2rem;
+    bottom: 1.5rem;
   }
 }
